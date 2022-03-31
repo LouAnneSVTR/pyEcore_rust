@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
     from pyecore.utils import DynamicEPackage
     MyMetamodel = DynamicEPackage(mm_root)
-    #a_instance = MyMetamodel.
+    a_instance = MyMetamodel.
 
     print(mm_root.eClassifiers[7].eStructuralFeatures)
 
